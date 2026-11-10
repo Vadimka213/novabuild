@@ -1,0 +1,667 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./custom.css" />
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm"
+      data-aos="fade-down"
+      data-aos-anchor-placement="center-center"
+    >
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-4" href="#"> 🚀 NovaBuild </a>
+
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-label="Меню"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-1">
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Послуги</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Ціни</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faq">FAQ</a>
+            </li>
+
+            <li class="nav-item ms-lg-2">
+              <button
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#contactModal"
+              >
+                Зв'язатись
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="main">
+      <section
+        class="hero-section d-flex align-items-center bg-dark text-white py-5"
+        id="hero"
+      >
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6 order-2 order-lg-1">
+              <span
+                class="badge bg-primary bg-opacity-25 text-primary-emphasis mb-3 px-3 py-2 animate__animated animate__backInDown"
+              >
+                🚀 Топ агентство 2024
+              </span>
+              <h1
+                class="display-4 fw-bold lh-sm mb-4 animate__animated animate__slideInLeft"
+              >
+                Будуємо сайти, що <span class="text-primary">продають</span>
+              </h1>
+              <p
+                class="lead text-white-50 mb-4 animate__animated animate__slideInRight"
+              >
+                Розробляємо швидкі, красиві і конверсійні сайти для бізнесу. Від
+                ідеї до продажу за 2 тижні.
+              </p>
+
+              <!-- Кнопки -->
+              <div
+                class="d-flex flex-wrap gap-3 mb-5 animate__animated animate__bounce"
+              >
+                <button
+                  class="btn btn-primary btn-lg px-4"
+                  data-bs-toggle="modal"
+                  data-bs-target="#contactModal"
+                >
+                  Отримати пропозицію
+                </button>
+                <a href="#features" class="btn btn-outline-light btn-lg px-4">
+                  Наші послуги
+                </a>
+              </div>
+
+              <div class="row g-3">
+                <div class="col-auto animate__animated animate__backInLeft">
+                  <div class="fs-3 fw-bold text-primary">120+</div>
+                  <div class="text-white-50 small">проєктів</div>
+                </div>
+                <div
+                  class="col-auto px-4 border-start border-secondary animate__animated animate__backInUp"
+                >
+                  <div class="fs-3 fw-bold text-primary">98%</div>
+                  <div class="text-white-50 small">задоволені</div>
+                </div>
+                <div
+                  class="col-auto ps-4 border-start border-secondary animate__animated animate__backInRight"
+                >
+                  <div class="fs-3 fw-bold text-primary">5 р.</div>
+                  <div class="text-white-50 small">на ринку</div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-6 order-1 order-lg-2 text-center"
+              data-aos="fade-left"
+            >
+              <img
+                src="https://placehold.co/560x400/0d6efd/ffffff?text=Your+Website"
+                class="img-fluid rounded-4 shadow-lg"
+                alt="Скріншот сайту"
+                loading="eager"
+                fetchpriority="high"
+                width="560"
+                height="400"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-6 bg-light" id="features">
+        <div class="container">
+          <div class="text-center mb-5">
+            <h2 class="display-5 fw-bold mb-3" data-aos="fade-left">
+              Наші послуги
+            </h2>
+            <p
+              class="lead text-muted mx-auto"
+              style="max-width: 600px"
+              data-aos="fade-right"
+            >
+              Повний цикл розробки — від дизайну до підтримки
+            </p>
+          </div>
+
+          <div
+            class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4"
+            data-aos="fade-up"
+          >
+            <div class="col" data-aos="fade-up-right">
+              <div class="card h-100 border-0 shadow-sm p-2">
+                <div class="card-body p-4">
+                  <div class="fs-1 mb-3">🎨</div>
+                  <h5 class="fw-bold mb-2">UI/UX Дизайн</h5>
+                  <p class="text-muted">
+                    Створюємо зручні інтерфейси, що перетворюють відвідувачів на
+                    клієнтів.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col" data-aos="fade-up">
+              <div
+                class="card h-100 border-0 shadow-sm p-2 border-top border-primary border-3"
+              >
+                <div class="card-body p-4">
+                  <div class="fs-1 mb-3">💻</div>
+                  <h5 class="fw-bold mb-2">Веб-розробка</h5>
+                  <p class="text-muted">
+                    HTML, CSS, JavaScript, React і Next.js — рішення для
+                    будь-яких завдань.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col" data-aos="fade-up-left">
+              <div class="card h-100 border-0 shadow-sm p-2">
+                <div class="card-body p-4">
+                  <div class="fs-1 mb-3">📱</div>
+                  <h5 class="fw-bold mb-2">Мобільна адаптація</h5>
+                  <p class="text-muted">
+                    Робимо сайти зручними для смартфонів, планшетів і
+                    комп'ютерів.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col" data-aos="fade-down-left">
+              <div class="card h-100 border-0 shadow-sm p-2">
+                <div class="card-body p-4">
+                  <div class="fs-1 mb-3">🚀</div>
+                  <h5 class="fw-bold mb-2">SEO-оптимізація</h5>
+                  <p class="text-muted">
+                    Допомагаємо сайту швидше завантажуватися та краще
+                    відображатися в пошуку.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col" data-aos="fade-down">
+              <div class="card h-100 border-0 shadow-sm p-2">
+                <div class="card-body p-4">
+                  <div class="fs-1 mb-3">🛒</div>
+                  <h5 class="fw-bold mb-2">Інтернет-магазини</h5>
+                  <p class="text-muted">
+                    Створюємо магазини з каталогом товарів і зручним оформленням
+                    замовлень.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col" data-aos="fade-down-right">
+              <div class="card h-100 border-0 shadow-sm p-2">
+                <div class="card-body p-4">
+                  <div class="fs-1 mb-3">🔧</div>
+                  <h5 class="fw-bold mb-2">Підтримка сайтів</h5>
+                  <p class="text-muted">
+                    Оновлюємо, виправляємо помилки та підтримуємо стабільну
+                    роботу сайтів.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-6" id="pricing">
+        <div class="container" data-aos="fade-up">
+          <h2 class="display-5 fw-bold text-center mb-5">Ціни</h2>
+
+          <div class="row g-4 align-items-stretch">
+            <div class="col-md-4" data-aos="fade-right">
+              <div class="card h-100 border shadow-sm">
+                <div class="card-body p-4 d-flex flex-column">
+                  <h5 class="fw-bold mb-1">Starter</h5>
+                  <p class="text-muted mb-3">Для старту онлайн</p>
+                  <div class="display-5 fw-bold mb-4">
+                    $499<small class="fs-6 text-muted fw-normal">/проєкт</small>
+                  </div>
+                  <ul class="list-unstyled mb-4 flex-grow-1">
+                    <li class="mb-2">✅ 5 сторінок</li>
+                    <li class="mb-2">✅ Адаптивний дизайн</li>
+                    <li class="mb-2 text-muted">❌ Без CMS</li>
+                    <li class="mb-2 text-muted">❌ Без SEO</li>
+                  </ul>
+                  <button
+                    class="btn btn-outline-primary w-100"
+                    data-bs-toggle="modal"
+                    data-bs-target="#contactModal"
+                  >
+                    Замовити
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div
+                class="card h-100 bg-primary text-white shadow-lg border-0 position-relative"
+              >
+                <span
+                  class="badge bg-warning text-dark position-absolute top-0 start-50 translate-middle px-3 py-2"
+                >
+                  👍 Популярний
+                </span>
+                <div class="card-body p-4 pt-5 d-flex flex-column">
+                  <h5 class="fw-bold mb-1">Pro</h5>
+                  <p class="text-white-75 mb-3">Для зростаючого бізнесу</p>
+                  <div class="display-5 fw-bold mb-4">
+                    $1299<small class="fs-6 text-white-50 fw-normal"
+                      >/проєкт</small
+                    >
+                  </div>
+                  <ul class="list-unstyled mb-4 flex-grow-1">
+                    <li class="mb-2">✅ До 15 сторінок</li>
+                    <li class="mb-2">✅ CMS підключення</li>
+                    <li class="mb-2">✅ SEO базовий</li>
+                    <li class="mb-2">✅ 3 місяці підтримки</li>
+                  </ul>
+                  <button
+                    class="btn btn-light btn-lg w-100 fw-bold text-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#contactModal"
+                  >
+                    Замовити Pro
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-left">
+              <div
+                class="card h-100 bg-warning ext-white shadow-lg border-0 position-relative"
+              >
+                <span
+                  class="badge bg-info text-dark position-absolute top-0 start-50 translate-middle px-3 py-2"
+                >
+                  🔥 Рекомендуємо
+                </span>
+                <div class="card-body p-4 pt-5 d-flex flex-column">
+                  <h5 class="fw-bold mb-1">Enterprice</h5>
+                  <p class="text-white-75 mb-3">Для зростаючого бізнесу</p>
+                  <div class="display-5 fw-bold mb-4">
+                    Індив<small class="fs-6 text-white-75 fw-normal"
+                      >/проєкт</small
+                    >
+                  </div>
+                  <ul class="list-unstyled mb-4 flex-grow-1">
+                    <li class="mb-2">✅ До 10 сторінок</li>
+                    <li class="mb-2">✅ CMS підключення</li>
+                    <li class="mb-2">✅ SEO базовий</li>
+                    <li class="mb-2">✅ 1 місяц підтримки</li>
+                  </ul>
+                  <button
+                    class="btn btn-light btn-lg w-100 fw-bold text-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#contactModal"
+                  >
+                    Замовити Enterprice
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-5 bg-light" id="faq" data-aos="fade-up">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <h2 class="display-5 fw-bold text-center mb-5">
+                Питання і відповіді
+              </h2>
+
+              <div class="accordion" id="faqAccordion">
+                <div
+                  class="accordion-item border-0 mb-3 shadow-sm rounded-3 overflow-hidden"
+                >
+                  <h3 class="accordion-header">
+                    <button
+                      class="accordion-button fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq1"
+                      aria-expanded="true"
+                      aria-controls="faq1"
+                    >
+                      Скільки часу займає розробка?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq1"
+                    class="accordion-collapse collapse show"
+                    data-bs-parent="#faqAccordion"
+                  >
+                    <div class="accordion-body text-muted">
+                      Стандартний лендінг — 5–7 робочих днів. Складні проєкти з
+                      CMS та інтеграціями — від 2 до 4 тижнів, залежно від
+                      обсягу робіт.
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="accordion-item border-0 mb-3 shadow-sm rounded-3 overflow-hidden"
+                >
+                  <h3 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq2"
+                      aria-expanded="false"
+                      aria-controls="faq2"
+                    >
+                      Чи можу редагувати сайт самостійно?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq2"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqAccordion"
+                  >
+                    <div class="accordion-body text-muted">
+                      Так! Ми можемо налаштувати зручну систему керування
+                      контентом, щоб ви могли самостійно змінювати тексти,
+                      зображення та іншу інформацію без знання програмування.
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="accordion-item border-0 mb-3 shadow-sm rounded-3 overflow-hidden"
+                >
+                  <h3 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq3"
+                      aria-expanded="false"
+                      aria-controls="faq3"
+                    >
+                      Що, якщо мені не сподобається результат?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq3"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqAccordion"
+                  >
+                    <div class="accordion-body text-muted">
+                      Перед початком роботи ми узгоджуємо ваші побажання та
+                      вимоги. Під час розробки ви зможете переглядати проміжні
+                      результати й надавати коментарі відповідно до погоджених
+                      умов проєкту.
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="accordion-item border-0 mb-3 shadow-sm rounded-3 overflow-hidden"
+                >
+                  <h3 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq4"
+                      aria-expanded="false"
+                      aria-controls="faq4"
+                    >
+                      Чи підтримуєте сайти після запуску?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq4"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqAccordion"
+                  >
+                    <div class="accordion-body text-muted">
+                      Так, ми можемо забезпечити технічну підтримку після
+                      запуску: оновлення, виправлення помилок, покращення
+                      швидкості роботи та додавання нових функцій.
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="accordion-item border-0 mb-3 shadow-sm rounded-3 overflow-hidden"
+                >
+                  <h3 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq5"
+                      aria-expanded="false"
+                      aria-controls="faq5"
+                    >
+                      Які методи оплати доступні?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq5"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqAccordion"
+                  >
+                    <div class="accordion-body text-muted">
+                      Спосіб оплати та графік платежів узгоджуються
+                      індивідуально перед початком роботи. Вартість залежить від
+                      складності проєкту, його функціоналу та термінів
+                      виконання.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="modal fade" id="contactModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header border-0 pb-0">
+            <h5 class="modal-title fw-bold fs-4">Замовити проєкт 🚀</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+
+          <div class="modal-body px-4 pt-3">
+            <form class="needs-validation" novalidate>
+              <div class="mb-3">
+                <label for="cName" class="form-label fw-semibold"
+                  >Ваше ім'я</label
+                >
+                <input
+                  type="text"
+                  class="form-control form-control-lg"
+                  id="cName"
+                  placeholder="Іван Петренко"
+                  required
+                />
+                <div class="invalid-feedback">Будь ласка, введіть ім'я</div>
+              </div>
+
+              <div class="mb-3">
+                <label for="cEmail" class="form-label fw-semibold">Email</label>
+                <input
+                  type="email"
+                  class="form-control form-control-lg"
+                  id="cEmail"
+                  placeholder="ivan@example.com"
+                  required
+                />
+                <div class="invalid-feedback">Введіть коректний email</div>
+              </div>
+
+              <div class="mb-3">
+                <label for="cBudget" class="form-label fw-semibold"
+                  >Тариф</label
+                >
+                <select
+                  class="form-select form-select-lg"
+                  id="cBudget"
+                  required
+                >
+                  <option value="">Оберіть...</option>
+                  <option>Starter — $499</option>
+                  <option>Pro — $1299</option>
+                  <option>Enterprise — індивідуально</option>
+                </select>
+              </div>
+
+              <div class="mb-4">
+                <label for="cMessage" class="form-label fw-semibold"
+                  >Опис проєкту</label
+                >
+                <textarea
+                  class="form-control"
+                  id="cMessage"
+                  rows="3"
+                  placeholder="Розкажіть про свій проєкт..."
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-lg w-100">
+                Відправити заявку
+              </button>
+            </form>
+            <div id="successMessage" class="text-center d-none">
+              <div id="successAnimation"></div>
+
+              <h4 class="fw-bold">Заявку заповнено!</h4>
+              <p class="text-muted">
+                Дякуємо! Це демонстрація успішного заповнення.
+              </p>
+
+              <button
+                type="button"
+                class="btn btn-primary mt-3"
+                data-bs-dismiss="modal"
+              >
+                Закрити
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer
+      class="bg-dark text-white py-5"
+      data-aos="fade-down"
+      data-aos-anchor-placement="center-bottom"
+    >
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <h5 class="fw-bold mb-3">🚀 NovaBuild</h5>
+            <p class="text-white-50" data-aos="fade-down">
+              Будуємо сайти що продають. З 2019 року.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h6
+              class="text-uppercase text-white-50 small mb-3"
+              data-aos="fade-up"
+            >
+              Навігація
+            </h6>
+            <ul class="list-unstyled" data-aos="fade-left">
+              <li>
+                <a href="#features" class="text-white-50 text-decoration-none"
+                  >Послуги</a
+                >
+              </li>
+              <li>
+                <a href="#pricing" class="text-white-50 text-decoration-none"
+                  >Ціни</a
+                >
+              </li>
+              <li>
+                <a href="#faq" class="text-white-50 text-decoration-none"
+                  >FAQ</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h6
+              class="text-uppercase text-white-50 small mb-3"
+              data-aos="fade-up"
+            >
+              Контакти
+            </h6>
+            <p class="text-white-50 mb-1" data-aos="fade-right">
+              📧 hello@novabuild.ua
+            </p>
+            <p class="text-white-50" data-aos="fade-right">
+              📱 +380 50 123 4567
+            </p>
+          </div>
+        </div>
+        <hr class="border-secondary my-4" />
+        <p class="text-center text-white-50 small mb-0">
+          © 2025 NovaBuild. Всі права захищені.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true,
+        offset: 100,
+      });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+    <script src="./modal.js"></script>
+  </body>
+</html>
